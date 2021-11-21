@@ -3,4 +3,5 @@ languageCode: en-us
 title: Grant's Website
 theme: PaperMod
 
+publishDir: docs
 relativeURLs: true
