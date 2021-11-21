@@ -1,7 +1,51 @@
 baseURL: http://grantdickins.co.uk/
 languageCode: en-us
 title: Grant's Website
+paginate: 5
 theme: PaperMod
-
 publishDir: docs
 relativeURLs: true
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+enableEmoji: true
+
+
+params:
+  env: production
+  title: Grant's bit of the interwebnet
+  description: Do I really know what I'm doing? Unlikely.
+  keywords: [blog, config manager, sccm, mecm, memcm, mem, windows, admin, sysadmin, winadmin, server, intune, azure, github, personal, scotland, grunt, grant, dickins]
+  author: Grant
+  DateFormat: "2 Jan 2006"
+  defaultTheme: auto #dark, light
+  disableThemeToggle: false
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowToc: true
+  ShowCodeCopyButtons: true
+  comments: false
+
+  homeInfoParams:
+    Title: Hello 👋
+    Content: > 
+        Here's my little bit of the interwebnets. You can find out [about me here](/aboutme).
+
+        - I will mostly be documenting things I learned to do and to share my vague knowledge with the world. Set your expectations accordingly.
+
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/_G_rant"
+    - name: github
+      url: "https://github.com/elgrunt0"
+    - name: discord
+      url: https://discord.com/invite/winadmins
+
+menu:
+  main:
+    - identifier: aboutme
+      name: About Me
+      url: /aboutme
+      weight: 10

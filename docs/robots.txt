@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://grantdickins.co.uk/sitemap.xml

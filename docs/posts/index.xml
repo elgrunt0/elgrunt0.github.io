@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Grant&#39;s Website</title>
-    <link>http://grantdickins.co.uk/</link>
-    <description>Recent content on Grant&#39;s Website</description>
+    <title>Posts on Grant&#39;s Website</title>
+    <link>http://grantdickins.co.uk/posts/</link>
+    <description>Recent content in Posts on Grant&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jul 2021 15:06:08 +0000</lastBuildDate><atom:link href="http://grantdickins.co.uk/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About Me</title>
-      <link>http://grantdickins.co.uk/aboutme/</link>
-      <pubDate>Sun, 21 Nov 2021 14:48:08 +0000</pubDate>
-      
-      <guid>http://grantdickins.co.uk/aboutme/</guid>
-      <description>My name is Grant Dickins. I am a bit of a geek. I used to be more of a geek, but family life has calmed me down (read: Can&amp;rsquo;t afford to buy geeky stuff anymore.) I&amp;rsquo;m a career geek now. I spend my working time (and a little more) researching, learning, and implimenting Windows technology - usually in the form of Microsoft Endpoint Configuration Manager and associated toolsets. I&amp;rsquo;m also a Dad.</description>
-    </item>
-    
+    <lastBuildDate>Sat, 03 Jul 2021 15:06:08 +0000</lastBuildDate><atom:link href="http://grantdickins.co.uk/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github Permissions</title>
       <link>http://grantdickins.co.uk/posts/2021/2021-07-03-github-permissions/</link>
