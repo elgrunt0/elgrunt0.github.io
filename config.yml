@@ -2,3 +2,5 @@ baseURL: http://grantdickins.co.uk/
 languageCode: en-us
 title: Grant's Website
 theme: PaperMod
+
+relativeURLs: true
