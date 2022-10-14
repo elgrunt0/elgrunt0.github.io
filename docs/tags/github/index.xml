@@ -14,12 +14,12 @@
       
       <guid>http://grantdickins.co.uk/posts/2021/2021-07-03-github-permissions/</guid>
       <description>Error When trying to git clone or git push I would get the following error:
- git@github.com: Permission denied (public key). fatal: Could not read from remote repository.
+git@github.com: Permission denied (public key). fatal: Could not read from remote repository.
 Please make sure you have the correct access rights and the repository exists.
- To fix this, you need github to trust the machine.
+To fix this, you need github to trust the machine.
 On your machine, run:
 ssh-keygen Keep it simple by just pressing Enter, Enter, Enter.
-grunt@debian:~/dotfiles$ ssh-keygen Generating public/private rsa key pair.</description>
+grunt@debian:~/dotfiles$ ssh-keygenGenerating public/private rsa key pair.</description>
     </item>
     
   </channel>

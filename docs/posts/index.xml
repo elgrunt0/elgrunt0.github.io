@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Grant&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jul 2021 15:06:08 +0000</lastBuildDate><atom:link href="http://grantdickins.co.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Oct 2022 21:10:43 +0100</lastBuildDate><atom:link href="http://grantdickins.co.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finding Silent Parameters</title>
+      <link>http://grantdickins.co.uk/posts/2022/10/2022-10-14-finding-silent-parameters/</link>
+      <pubDate>Fri, 14 Oct 2022 21:10:43 +0100</pubDate>
+      
+      <guid>http://grantdickins.co.uk/posts/2022/10/2022-10-14-finding-silent-parameters/</guid>
+      <description>If you don&amp;rsquo;t know what the setup file&amp;rsquo;s silent install switches are, there are a few ways to find out.
+(Also, you will want the silent/unattended uninstall commands too.)
+RT*M Check the vendor documentation. Sometimes they&amp;rsquo;ll provide the info needed to silently install their product. Even better if they actually provide step by step instructions on how to install via Config Manager! (But don&amp;rsquo;t get your hopes up&amp;hellip;)
+Just Bing it!</description>
+    </item>
+    
     <item>
       <title>Github Permissions</title>
       <link>http://grantdickins.co.uk/posts/2021/2021-07-03-github-permissions/</link>
@@ -14,12 +26,12 @@
       
       <guid>http://grantdickins.co.uk/posts/2021/2021-07-03-github-permissions/</guid>
       <description>Error When trying to git clone or git push I would get the following error:
- git@github.com: Permission denied (public key). fatal: Could not read from remote repository.
+git@github.com: Permission denied (public key). fatal: Could not read from remote repository.
 Please make sure you have the correct access rights and the repository exists.
- To fix this, you need github to trust the machine.
+To fix this, you need github to trust the machine.
 On your machine, run:
 ssh-keygen Keep it simple by just pressing Enter, Enter, Enter.
-grunt@debian:~/dotfiles$ ssh-keygen Generating public/private rsa key pair.</description>
+grunt@debian:~/dotfiles$ ssh-keygenGenerating public/private rsa key pair.</description>
     </item>
     
   </channel>
