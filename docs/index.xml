@@ -6,7 +6,18 @@
     <description>Recent content on Grant&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Oct 2022 21:42:58 +0100</lastBuildDate><atom:link href="http://grantdickins.co.uk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Oct 2022 22:35:36 +0100</lastBuildDate><atom:link href="http://grantdickins.co.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>InstallShield</title>
+      <link>http://grantdickins.co.uk/posts/2022/10/2022-10-14-installshield/</link>
+      <pubDate>Fri, 14 Oct 2022 22:35:36 +0100</pubDate>
+      
+      <guid>http://grantdickins.co.uk/posts/2022/10/2022-10-14-installshield/</guid>
+      <description>InstallShield Setups When running InstallShield setups, they usually have this icon: And the setup dialogue looks like this:
+These setup files are often a Setup.exe. There are two types; InstallScript and InstallScript MSI.
+InstallScript MSI - Setup.exe has InstallScript inside that drives the install of an MSI. NOTE - Don&amp;rsquo;t be fooled into thinking you can just run the MSI - The Setup.exe will likely also run some other pre-requisite checks, custom actions, and/or post installation actions.</description>
+    </item>
+    
     <item>
       <title>MSI Windows Installer</title>
       <link>http://grantdickins.co.uk/posts/2022/10/2022-10-14-msi-installer/2022-10-14-msi-installer/</link>
