@@ -2,7 +2,7 @@
 title: "Finding Silent Parameters"
 date: 2022-10-14T21:10:43+01:00
 draft: false
-tags: ["applications"]
+tags: ["applications", "installers"]
 ---
 
 If you don't know what the setup file's silent install switches are, there are a few ways to find out.

@@ -1,8 +1,8 @@
 ---
 title: "MSI Windows Installer"
 date: 2022-10-14T21:42:58+01:00
-draft: true
-tags: ["applications"]
+draft: false
+tags: ["applications", "installers"]
 ---
 
 # MSI Files
