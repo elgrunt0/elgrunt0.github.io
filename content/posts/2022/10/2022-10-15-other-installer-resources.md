@@ -2,7 +2,7 @@
 title: Other Installer Resources
 date: 2022-10-15T12:50:12+01:00
 draft: false
-tags: ["Applications/Packaging", "Software", "Installs", ] 
+tags: ["Applications/Packaging", "Software", "Installs" ] 
 ---
 
 

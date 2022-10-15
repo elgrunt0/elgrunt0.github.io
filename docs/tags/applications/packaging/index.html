@@ -116,7 +116,7 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="http://grantdickins.co.uk/">Home</a>&nbsp;»&nbsp;<a href="http://grantdickins.co.uk/tags/">Tags</a>&nbsp;»&nbsp;<a href="http://grantdickins.co.uk/tags/applications/">applications</a></div>
+<header class="page-header"><div class="breadcrumbs"><a href="http://grantdickins.co.uk/">Home</a>&nbsp;»&nbsp;<a href="http://grantdickins.co.uk/tags/">Tags</a></div>
   <h1>Applications/Packaging</h1>
 </header>
 
@@ -139,6 +139,50 @@ Nullsoft NSIS Website: NSIS Wiki (sourceforge....</p>
   </section>
   <footer class="entry-footer"><span title='2022-10-15 12:50:12 +0100 BST'>15 Oct 2022</span>&nbsp;·&nbsp;Grant</footer>
   <a class="entry-link" aria-label="post link to Other Installer Resources" href="http://grantdickins.co.uk/posts/2022/10/2022-10-15-other-installer-resources/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>InstallShield
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>InstallShield Setups When running InstallShield setups, they usually have this icon: And the setup dialogue looks like this:
+These setup files are often a Setup.exe. There are two types; InstallScript and InstallScript MSI.
+InstallScript MSI - Setup.exe has InstallScript inside that drives the install of an MSI. NOTE - Don’t be fooled into thinking you can just run the MSI - The Setup.exe will likely also run some other pre-requisite checks, custom actions, and/or post installation actions....</p>
+  </section>
+  <footer class="entry-footer"><span title='2022-10-14 22:35:36 +0100 BST'>14 Oct 2022</span>&nbsp;·&nbsp;Grant</footer>
+  <a class="entry-link" aria-label="post link to InstallShield" href="http://grantdickins.co.uk/posts/2022/10/2022-10-14-installshield/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>MSI Windows Installer
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>MSI Files These are generally easy as 3.14. If the vendor has adhered to MS standards then it should just be a case of running the MSI with:
+MSIEXEC /i setup.msi /qn
+Parameter Meaning MSIEXEC is the install engine. /i means install. /qn means quiet, no dialogue. Try: run “msiexec” in cmd to see the options.
+Things get a little more complicated when vendors start adding custom dialogues to the setup process, e....</p>
+  </section>
+  <footer class="entry-footer"><span title='2022-10-14 21:42:58 +0100 BST'>14 Oct 2022</span>&nbsp;·&nbsp;Grant</footer>
+  <a class="entry-link" aria-label="post link to MSI Windows Installer" href="http://grantdickins.co.uk/posts/2022/10/2022-10-14-msi-installer/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Finding Silent Parameters
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>If you don’t know what the setup file’s silent install switches are, there are a few ways to find out.
+(Also, you will want the silent/unattended uninstall commands too.)
+RT*M Check the vendor documentation. Sometimes they’ll provide the info needed to silently install their product. Even better if they actually provide step by step instructions on how to install via Config Manager! (But don’t get your hopes up…)
+Just Bing it!...</p>
+  </section>
+  <footer class="entry-footer"><span title='2022-10-14 21:10:43 +0100 BST'>14 Oct 2022</span>&nbsp;·&nbsp;Grant</footer>
+  <a class="entry-link" aria-label="post link to Finding Silent Parameters" href="http://grantdickins.co.uk/posts/2022/10/2022-10-14-finding-silent-parameters/"></a>
 </article>
     </main>
     

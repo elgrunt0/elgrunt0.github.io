@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>MSI Windows Installer | Grant&#39;s Website</title>
-<meta name="keywords" content="applications, installers" />
+<meta name="keywords" content="Applications/Packaging, Software, Installs" />
 <meta name="description" content="MSI Files These are generally easy as 3.14. If the vendor has adhered to MS standards then it should just be a case of running the MSI with:
 MSIEXEC /i setup.msi /qn
 Parameter Meaning MSIEXEC is the install engine. /i means install. /qn means quiet, no dialogue. Try: run &ldquo;msiexec&rdquo; in cmd to see the options.
@@ -106,7 +106,7 @@ Things get a little more complicated when vendors start adding custom dialogues 
   "name": "MSI Windows Installer",
   "description": "MSI Files These are generally easy as 3.14. If the vendor has adhered to MS standards then it should just be a case of running the MSI with:\nMSIEXEC /i setup.msi /qn\nParameter Meaning MSIEXEC is the install engine. /i means install. /qn means quiet, no dialogue. Try: run \u0026ldquo;msiexec\u0026rdquo; in cmd to see the options.\nThings get a little more complicated when vendors start adding custom dialogues to the setup process, e.",
   "keywords": [
-    "applications", "installers"
+    "Applications/Packaging", "Software", "Installs"
   ],
   "articleBody": "MSI Files These are generally easy as 3.14. If the vendor has adhered to MS standards then it should just be a case of running the MSI with:\nMSIEXEC /i setup.msi /qn\nParameter Meaning MSIEXEC is the install engine. /i means install. /qn means quiet, no dialogue. Try: run “msiexec” in cmd to see the options.\nThings get a little more complicated when vendors start adding custom dialogues to the setup process, e.g. for serial numbers, or license server addresses, optional components, etc.\nIf the vendor has done it right, this should all be documented in their support pages. Often searching for “silent installation” or “unattended install” for the product will get you the info you need.\nIf they haven’t documented it, then it is sometimes possible to glean that info straight from the MSI itself using tools like Orca.\nOrca is part of the Windows SDK: (An alternative is SuperOrca from Pantaray)\nOrca can be used to see inside an MSI file and can view or edit specific properties which can help prepare a silent install.\nIn this example, we have a product called BricsCAD. When installed silently with msiexec /i bricscad.msi /qn it automatically opens up release notes at the end of the install sequence - which defeats the purpose of silent installs.\nThe support website didn’t document any way to suppress this action, so I decided to delve into the MSI with Orca and see if they left any properties to assist.\nOnce opened in Orca, we look for the Properties table and see what’s there.\nGenerally, the properties we care about are in CAPITALS.\nWe’ve got a few here which stand out immediately:\nADDDESKTOPSHORTCUT SHOWRELEASENOTES Bingo!\nThe default value for SHOWRELEASENOTES is 1. So we can add this property to the install string to specify it as 0.\nIf you recall from running ‘msiexec’ in cmd, there is the option for Setting Public Properties\nSo all we need to do is append the following to the silent install string: SHOWRELEASENOTES=0\nMSIEXEC /i bricscad.msi /qn SHOWRELEASENOTES=0\nTransforms Some applications can have a setup customiser which will generate a TRASNFORMS file (*.MST). This file contains extra settings or adjustments which can be applied to a MSI when run.\nEven if not supplied, it is possible to create your own using (Super)Orca, but we will not be getting into that.\nTo use a TRANSFORMS file, all you have to do is put the MST file in the same directory as the MSI and run it with the command:\nMSIEXEC /i \"setup.msi\" TRANSFORMS=\"customsettings.mst\" /qn\nLogging It can be very useful to get installation process logs, especially to find out why things go wrong before you push an application to production.\nWindows Installer can provide some extremely verbose logging. Takes a bit of getting used to the logs, but hopefully can find out what went wrong.\nTo add logging to your setup, add the following to the command:\nMSIEXEC /i \"setup.msi\" /l*v C:\\Windows\\Temp\\MyApplicationInstall.log\nResources Articles\nArticle: The Complete Guide to MSI Switches for Silent Software Installation (itninja.com)\nMS Learn\n",
   "wordCount" : "508",
@@ -283,8 +283,9 @@ Things get a little more complicated when vendors start adding custom dialogues 
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://grantdickins.co.uk/tags/applications/">applications</a></li>
-      <li><a href="http://grantdickins.co.uk/tags/installers/">installers</a></li>
+      <li><a href="http://grantdickins.co.uk/tags/applications/packaging/">Applications/Packaging</a></li>
+      <li><a href="http://grantdickins.co.uk/tags/software/">Software</a></li>
+      <li><a href="http://grantdickins.co.uk/tags/installs/">Installs</a></li>
     </ul>
 <nav class="paginav">
   <a class="prev" href="http://grantdickins.co.uk/posts/2022/10/2022-10-14-installshield/">
@@ -302,7 +303,7 @@ Things get a little more complicated when vendors start adding custom dialogues 
 
 <div class="share-buttons">
     <a target="_blank" rel="noopener noreferrer" aria-label="share MSI Windows Installer on twitter"
-        href="https://twitter.com/intent/tweet/?text=MSI%20Windows%20Installer&amp;url=http%3a%2f%2fgrantdickins.co.uk%2fposts%2f2022%2f10%2f2022-10-14-msi-installer%2f&amp;hashtags=applications%2cinstallers">
+        href="https://twitter.com/intent/tweet/?text=MSI%20Windows%20Installer&amp;url=http%3a%2f%2fgrantdickins.co.uk%2fposts%2f2022%2f10%2f2022-10-14-msi-installer%2f&amp;hashtags=Applications%2fPackaging%2cSoftware%2cInstalls">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />

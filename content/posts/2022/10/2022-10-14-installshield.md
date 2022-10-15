@@ -2,7 +2,7 @@
 title: "InstallShield"
 date: 2022-10-14T22:35:36+01:00
 draft: false
-tags: ["applications", "installers"]
+tags: ["Applications/Packaging", "Software", "Installs" ] 
 ---
 
 
