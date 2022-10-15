@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Software on Grant&#39;s Website</title>
+    <link>http://grantdickins.co.uk/tags/software/</link>
+    <description>Recent content in Software on Grant&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Oct 2022 12:50:12 +0100</lastBuildDate><atom:link href="http://grantdickins.co.uk/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Other Installer Resources</title>
+      <link>http://grantdickins.co.uk/posts/2022/10/2022-10-15-other-installer-resources/</link>
+      <pubDate>Sat, 15 Oct 2022 12:50:12 +0100</pubDate>
+      
+      <guid>http://grantdickins.co.uk/posts/2022/10/2022-10-15-other-installer-resources/</guid>
+      <description>Setup Technologies MSI See post: MSI Installer
+MSI Authoring Tools Wix Toolet - Free - Hard to learn
+Master Packager - Freemium
+MSI Installer Tool (advancedinstaller.com) - Freemium
+InstallShield See post: InstallShield Setups
+Wise Wise Setup files are a discontinued technology, but are still fairly prevalent.
+Setup switches are very simple.
+ITNinja.com has an article on them here Article: Wise Setup.exe Switches (itninja.com)
+Usual silent install parameter: setup.exe /S
+Nullsoft NSIS Website: NSIS Wiki (sourceforge.</description>
+    </item>
+    
+  </channel>
+</rss>
