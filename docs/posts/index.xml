@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 15 Oct 2022 12:50:12 +0100</lastBuildDate><atom:link href="http://grantdickins.co.uk/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Other Installer Resources</title>
-      <link>http://grantdickins.co.uk/posts/2022/10/2022-10-15-other-installer-resources/</link>
+      <link>http://grantdickins.co.uk/posts/2022/2022-10-15-other-installer-resources/</link>
       <pubDate>Sat, 15 Oct 2022 12:50:12 +0100</pubDate>
       
-      <guid>http://grantdickins.co.uk/posts/2022/10/2022-10-15-other-installer-resources/</guid>
+      <guid>http://grantdickins.co.uk/posts/2022/2022-10-15-other-installer-resources/</guid>
       <description>Setup Technologies MSI See post: MSI Installer
 MSI Authoring Tools Wix Toolet - Free - Hard to learn
 Master Packager - Freemium
@@ -27,10 +27,10 @@ Nullsoft NSIS Website: NSIS Wiki (sourceforge.</description>
     
     <item>
       <title>InstallShield</title>
-      <link>http://grantdickins.co.uk/posts/2022/10/2022-10-14-installshield/</link>
+      <link>http://grantdickins.co.uk/posts/2022/2022-10-14-installshield/</link>
       <pubDate>Fri, 14 Oct 2022 22:35:36 +0100</pubDate>
       
-      <guid>http://grantdickins.co.uk/posts/2022/10/2022-10-14-installshield/</guid>
+      <guid>http://grantdickins.co.uk/posts/2022/2022-10-14-installshield/</guid>
       <description>InstallShield Setups When running InstallShield setups, they usually have this icon: And the setup dialogue looks like this:
 These setup files are often a Setup.exe. There are two types; InstallScript and InstallScript MSI.
 InstallScript MSI - Setup.exe has InstallScript inside that drives the install of an MSI. NOTE - Don&amp;rsquo;t be fooled into thinking you can just run the MSI - The Setup.exe will likely also run some other pre-requisite checks, custom actions, and/or post installation actions.</description>
@@ -38,10 +38,10 @@ InstallScript MSI - Setup.exe has InstallScript inside that drives the install o
     
     <item>
       <title>MSI Windows Installer</title>
-      <link>http://grantdickins.co.uk/posts/2022/10/2022-10-14-msi-installer/</link>
+      <link>http://grantdickins.co.uk/posts/2022/2022-10-14-msi-installer/</link>
       <pubDate>Fri, 14 Oct 2022 21:42:58 +0100</pubDate>
       
-      <guid>http://grantdickins.co.uk/posts/2022/10/2022-10-14-msi-installer/</guid>
+      <guid>http://grantdickins.co.uk/posts/2022/2022-10-14-msi-installer/</guid>
       <description>MSI Files These are generally easy as 3.14. If the vendor has adhered to MS standards then it should just be a case of running the MSI with:
 MSIEXEC /i setup.msi /qn
 Parameter Meaning MSIEXEC is the install engine. /i means install. /qn means quiet, no dialogue. Try: run &amp;ldquo;msiexec&amp;rdquo; in cmd to see the options.
@@ -50,10 +50,10 @@ Things get a little more complicated when vendors start adding custom dialogues 
     
     <item>
       <title>Finding Silent Parameters</title>
-      <link>http://grantdickins.co.uk/posts/2022/10/2022-10-14-finding-silent-parameters/</link>
+      <link>http://grantdickins.co.uk/posts/2022/2022-10-14-finding-silent-parameters/</link>
       <pubDate>Fri, 14 Oct 2022 21:10:43 +0100</pubDate>
       
-      <guid>http://grantdickins.co.uk/posts/2022/10/2022-10-14-finding-silent-parameters/</guid>
+      <guid>http://grantdickins.co.uk/posts/2022/2022-10-14-finding-silent-parameters/</guid>
       <description>If you don&amp;rsquo;t know what the setup file&amp;rsquo;s silent install switches are, there are a few ways to find out.
 (Also, you will want the silent/unattended uninstall commands too.)
 RT*M Check the vendor documentation. Sometimes they&amp;rsquo;ll provide the info needed to silently install their product. Even better if they actually provide step by step instructions on how to install via Config Manager! (But don&amp;rsquo;t get your hopes up&amp;hellip;)
@@ -76,19 +76,6 @@ grunt@debian:~/dotfiles$ ssh-keygenGenerating public/private rsa key pair.</des
     </item>
     
     <item>
-      <title>3rd Party Software Update failed, error 0x800703EE</title>
-      <link>http://grantdickins.co.uk/posts/2020/2020-04-17-3rd-party-su-error/</link>
-      <pubDate>Fri, 27 Nov 2020 01:01:01 +0000</pubDate>
-      
-      <guid>http://grantdickins.co.uk/posts/2020/2020-04-17-3rd-party-su-error/</guid>
-      <description>Recently when deploying 3rd Party Updates for Adobe Reader with Config Manager, I came across a bizarre error. After a quick search online, one post suggested deleting the \\machine\admin$\System32\GroupPolicy\Machine\Registry.pol
-I don&amp;rsquo;t like deleting registry things, so it&amp;rsquo;s better to rename it.
-But why? What has group policy got to do with Updates Deployments since Config Manager Client sets the Windows Update settings in Registry.
-Lets look at the facts
-The POL file date is 2 months old.</description>
-    </item>
-    
-    <item>
       <title>CfgMgr Distribution Priority</title>
       <link>http://grantdickins.co.uk/posts/2020/2020-11-27-cm-distribution-priority/</link>
       <pubDate>Fri, 27 Nov 2020 01:01:01 +0000</pubDate>
@@ -99,6 +86,19 @@ We have some remote DPs that are rate limited during business hours, but if an A
 I wanted to see which apps and driver packages I had previously set to High priority for distribution and no longer need to be.
 However, MECM doesn&amp;rsquo;t show this in any columns I could find. So I went to PowerShell.
 Unfortuntely, the Get-CMApplications cmdlet doesn&amp;rsquo;t include any properties for &amp;lsquo;Priority&amp;rsquo; so, that was a bust.</description>
+    </item>
+    
+    <item>
+      <title>3rd Party Software Update failed, error 0x800703EE</title>
+      <link>http://grantdickins.co.uk/posts/2020/2020-04-17-3rd-party-su-error/</link>
+      <pubDate>Fri, 17 Apr 2020 01:01:01 +0000</pubDate>
+      
+      <guid>http://grantdickins.co.uk/posts/2020/2020-04-17-3rd-party-su-error/</guid>
+      <description>Recently when deploying 3rd Party Updates for Adobe Reader with Config Manager, I came across a bizarre error. After a quick search online, one post suggested deleting the \\machine\admin$\System32\GroupPolicy\Machine\Registry.pol
+I don&amp;rsquo;t like deleting registry things, so it&amp;rsquo;s better to rename it.
+But why? What has group policy got to do with Updates Deployments since Config Manager Client sets the Windows Update settings in Registry.
+Lets look at the facts
+The POL file date is 2 months old.</description>
     </item>
     
   </channel>

@@ -6,11 +6,11 @@
     <description>Recent content in Software Updates on Grant&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Nov 2020 01:01:01 +0000</lastBuildDate><atom:link href="http://grantdickins.co.uk/tags/software-updates/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Apr 2020 01:01:01 +0000</lastBuildDate><atom:link href="http://grantdickins.co.uk/tags/software-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3rd Party Software Update failed, error 0x800703EE</title>
       <link>http://grantdickins.co.uk/posts/2020/2020-04-17-3rd-party-su-error/</link>
-      <pubDate>Fri, 27 Nov 2020 01:01:01 +0000</pubDate>
+      <pubDate>Fri, 17 Apr 2020 01:01:01 +0000</pubDate>
       
       <guid>http://grantdickins.co.uk/posts/2020/2020-04-17-3rd-party-su-error/</guid>
       <description>Recently when deploying 3rd Party Updates for Adobe Reader with Config Manager, I came across a bizarre error. After a quick search online, one post suggested deleting the \\machine\admin$\System32\GroupPolicy\Machine\Registry.pol

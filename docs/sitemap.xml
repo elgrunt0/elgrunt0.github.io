@@ -8,7 +8,7 @@
     <loc>http://grantdickins.co.uk/tags/installs/</loc>
     <lastmod>2022-10-15T12:50:12+01:00</lastmod>
   </url><url>
-    <loc>http://grantdickins.co.uk/posts/2022/10/2022-10-15-other-installer-resources/</loc>
+    <loc>http://grantdickins.co.uk/posts/2022/2022-10-15-other-installer-resources/</loc>
     <lastmod>2022-10-15T12:50:12+01:00</lastmod>
   </url><url>
     <loc>http://grantdickins.co.uk/posts/</loc>
@@ -20,13 +20,13 @@
     <loc>http://grantdickins.co.uk/tags/</loc>
     <lastmod>2022-10-15T12:50:12+01:00</lastmod>
   </url><url>
-    <loc>http://grantdickins.co.uk/posts/2022/10/2022-10-14-installshield/</loc>
+    <loc>http://grantdickins.co.uk/posts/2022/2022-10-14-installshield/</loc>
     <lastmod>2022-10-14T22:35:36+01:00</lastmod>
   </url><url>
-    <loc>http://grantdickins.co.uk/posts/2022/10/2022-10-14-msi-installer/</loc>
+    <loc>http://grantdickins.co.uk/posts/2022/2022-10-14-msi-installer/</loc>
     <lastmod>2022-10-14T21:42:58+01:00</lastmod>
   </url><url>
-    <loc>http://grantdickins.co.uk/posts/2022/10/2022-10-14-finding-silent-parameters/</loc>
+    <loc>http://grantdickins.co.uk/posts/2022/2022-10-14-finding-silent-parameters/</loc>
     <lastmod>2022-10-14T21:10:43+01:00</lastmod>
   </url><url>
     <loc>http://grantdickins.co.uk/aboutme/</loc>
@@ -37,9 +37,6 @@
   </url><url>
     <loc>http://grantdickins.co.uk/posts/2021/2021-07-03-github-permissions/</loc>
     <lastmod>2021-07-03T15:06:08+00:00</lastmod>
-  </url><url>
-    <loc>http://grantdickins.co.uk/posts/2020/2020-04-17-3rd-party-su-error/</loc>
-    <lastmod>2020-11-27T01:01:01+00:00</lastmod>
   </url><url>
     <loc>http://grantdickins.co.uk/tags/cfgmgr/</loc>
     <lastmod>2020-11-27T01:01:01+00:00</lastmod>
@@ -53,8 +50,11 @@
     <loc>http://grantdickins.co.uk/tags/powershell/</loc>
     <lastmod>2020-11-27T01:01:01+00:00</lastmod>
   </url><url>
+    <loc>http://grantdickins.co.uk/posts/2020/2020-04-17-3rd-party-su-error/</loc>
+    <lastmod>2020-04-17T01:01:01+00:00</lastmod>
+  </url><url>
     <loc>http://grantdickins.co.uk/tags/software-updates/</loc>
-    <lastmod>2020-11-27T01:01:01+00:00</lastmod>
+    <lastmod>2020-04-17T01:01:01+00:00</lastmod>
   </url><url>
     <loc>http://grantdickins.co.uk/tags/applications/packaging/</loc>
   </url><url>
