@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DP on Grant&#39;s Website</title>
+    <link>http://grantdickins.co.uk/tags/dp/</link>
+    <description>Recent content in DP on Grant&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Nov 2020 01:01:01 +0000</lastBuildDate><atom:link href="http://grantdickins.co.uk/tags/dp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CfgMgr Distribution Priority</title>
+      <link>http://grantdickins.co.uk/posts/2020/2020-11-27-cm-distribution-priority/</link>
+      <pubDate>Fri, 27 Nov 2020 01:01:01 +0000</pubDate>
+      
+      <guid>http://grantdickins.co.uk/posts/2020/2020-11-27-cm-distribution-priority/</guid>
+      <description>Quick one.
+We have some remote DPs that are rate limited during business hours, but if an App or Package is set to High, then it&amp;rsquo;ll distribute regardless.
+I wanted to see which apps and driver packages I had previously set to High priority for distribution and no longer need to be.
+However, MECM doesn&amp;rsquo;t show this in any columns I could find. So I went to PowerShell.
+Unfortuntely, the Get-CMApplications cmdlet doesn&amp;rsquo;t include any properties for &amp;lsquo;Priority&amp;rsquo; so, that was a bust.</description>
+    </item>
+    
+  </channel>
+</rss>

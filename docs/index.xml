@@ -84,5 +84,31 @@ ssh-keygen Keep it simple by just pressing Enter, Enter, Enter.
 grunt@debian:~/dotfiles$ ssh-keygenGenerating public/private rsa key pair.</description>
     </item>
     
+    <item>
+      <title>3rd Party Software Update failed, error 0x800703EE</title>
+      <link>http://grantdickins.co.uk/posts/2020/2020-04-17-3rd-party-su-error/</link>
+      <pubDate>Fri, 27 Nov 2020 01:01:01 +0000</pubDate>
+      
+      <guid>http://grantdickins.co.uk/posts/2020/2020-04-17-3rd-party-su-error/</guid>
+      <description>Recently when deploying 3rd Party Updates for Adobe Reader with Config Manager, I came across a bizarre error. After a quick search online, one post suggested deleting the \\machine\admin$\System32\GroupPolicy\Machine\Registry.pol
+I don&amp;rsquo;t like deleting registry things, so it&amp;rsquo;s better to rename it.
+But why? What has group policy got to do with Updates Deployments since Config Manager Client sets the Windows Update settings in Registry.
+Lets look at the facts
+The POL file date is 2 months old.</description>
+    </item>
+    
+    <item>
+      <title>CfgMgr Distribution Priority</title>
+      <link>http://grantdickins.co.uk/posts/2020/2020-11-27-cm-distribution-priority/</link>
+      <pubDate>Fri, 27 Nov 2020 01:01:01 +0000</pubDate>
+      
+      <guid>http://grantdickins.co.uk/posts/2020/2020-11-27-cm-distribution-priority/</guid>
+      <description>Quick one.
+We have some remote DPs that are rate limited during business hours, but if an App or Package is set to High, then it&amp;rsquo;ll distribute regardless.
+I wanted to see which apps and driver packages I had previously set to High priority for distribution and no longer need to be.
+However, MECM doesn&amp;rsquo;t show this in any columns I could find. So I went to PowerShell.
+Unfortuntely, the Get-CMApplications cmdlet doesn&amp;rsquo;t include any properties for &amp;lsquo;Priority&amp;rsquo; so, that was a bust.</description>
+    </item>
+    
   </channel>
 </rss>
