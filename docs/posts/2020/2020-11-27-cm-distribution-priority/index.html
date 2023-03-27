@@ -24,7 +24,7 @@ Unfortuntely, the Get-CMApplications cmdlet doesn&rsquo;t include any properties
 <link rel="mask-icon" href="http://grantdickins.co.uk/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.104.3" />
+<meta name="generator" content="Hugo 0.111.3">
 <noscript>
     <style>
         #theme-toggle,
@@ -233,12 +233,12 @@ So I grabbed the code, mixed it in with the ISE code that gets generated when yo
 </span></span><span style="display:flex;"><span>Set-Location <span style="color:#e6db74">&#34;</span>$($SiteCode)<span style="color:#e6db74">:\&#34;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>$computer = $ProviderMachineName
-</span></span><span style="display:flex;"><span>$namespace = <span style="color:#e6db74">&#34;ROOT\SMS\site_$SiteCode&#34;</span>
+</span></span><span style="display:flex;"><span>$namespace = <span style="color:#e6db74">&#34;ROOT\SMS\site_</span>$SiteCode<span style="color:#e6db74">&#34;</span>
 </span></span><span style="display:flex;"><span>$classname = <span style="color:#e6db74">&#34;SMS_PackageBaseclass&#34;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>Write-Output <span style="color:#e6db74">&#34;=====================================&#34;</span>
-</span></span><span style="display:flex;"><span>Write-Output <span style="color:#e6db74">&#34;COMPUTER : $computer &#34;</span>
-</span></span><span style="display:flex;"><span>Write-Output <span style="color:#e6db74">&#34;CLASS    : $classname &#34;</span>
+</span></span><span style="display:flex;"><span>Write-Output <span style="color:#e6db74">&#34;COMPUTER : </span>$computer<span style="color:#e6db74"> &#34;</span>
+</span></span><span style="display:flex;"><span>Write-Output <span style="color:#e6db74">&#34;CLASS    : </span>$classname<span style="color:#e6db74"> &#34;</span>
 </span></span><span style="display:flex;"><span>Write-Output <span style="color:#e6db74">&#34;=====================================&#34;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>Get-WmiObject -Class $classname -ComputerName $computer -Namespace $namespace -filter <span style="color:#e6db74">&#34;Priority &lt;&gt; 2&#34;</span> |
@@ -318,7 +318,7 @@ So I grabbed the code, mixed it in with the ISE code that gets generated when yo
     </main>
     
 <footer class="footer">
-    <span>&copy; 2022 <a href="http://grantdickins.co.uk/">Grant&#39;s Website</a></span>
+    <span>&copy; 2023 <a href="http://grantdickins.co.uk/">Grant&#39;s Website</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
