@@ -23,7 +23,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowToc: true
+  ShowToc: false
   ShowCodeCopyButtons: true
   comments: false
 

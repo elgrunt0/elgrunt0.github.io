@@ -8,8 +8,8 @@ showtoc: false
 ### Who am I?
 
 My name is Grant Dickins. I am a bit of a geek. I used to be more of a geek, but family life has calmed me down (read: Can't afford to buy geeky stuff anymore.)
-I'm a career geek now. I spend my working time (and a little more) learning, researching, implementing, and managing Windows technology - usually in the form of Microsoft Endpoint Configuration Manager and associated toolsets.
-I occasionally dabble in some Linuxy things too. WSL2 is fun, but I also have a few Linux VMs to do things like run this Huge site.
+I'm a career geek now. I spend my working time (and a little more) learning, researching, implementing, and managing Windows technology - usually in the form of Microsoft Endpoint Configuration Manager and associated toolsets.  
+I occasionally dabble in some Linuxy things too. WSL2 is fun, but I also have a few Linux VMs to do things like run this Hugo site.  
 I'm also a Dad. _Who'd have thought?_ 
 
 ### My history

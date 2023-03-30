@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 03 Jul 2021 15:06:08 +0000</lastBuildDate><atom:link href="http://grantdickins.co.uk/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github Permissions</title>
-      <link>http://grantdickins.co.uk/posts/2021/2021-07-03-github-permissions/</link>
+      <link>http://grantdickins.co.uk/2021/07/03/github-permissions/</link>
       <pubDate>Sat, 03 Jul 2021 15:06:08 +0000</pubDate>
       
-      <guid>http://grantdickins.co.uk/posts/2021/2021-07-03-github-permissions/</guid>
+      <guid>http://grantdickins.co.uk/2021/07/03/github-permissions/</guid>
       <description>Error When trying to git clone or git push I would get the following error:
 git@github.com: Permission denied (public key). fatal: Could not read from remote repository.
 Please make sure you have the correct access rights and the repository exists.
