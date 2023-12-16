@@ -3,6 +3,7 @@ title: "Power Automate - Intune Cert Connector Health"
 date: 2023-12-16T19:08:55Z
 url: /2023/12/16/Power-Automate-Intune-Cert-Connector-Health/
 tags: ["Intune","Certificate","Connector","PowerApps","PowerAutomate","Dev","Alerts"]
+draft: false
 ---
 
 I'll start off by saying I don't fully understand what I've done here. This whole process stemmed from having to do some *icky* dev stuff in order to keep my Intune Dev tenant active. 
