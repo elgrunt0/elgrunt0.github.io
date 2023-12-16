@@ -36,8 +36,6 @@ params:
 
 
   socialIcons:
-    - name: bluesky
-      url: "https://bsky.app/profile/g-rant.bsky.social"
     - name: github
       url: "https://github.com/elgrunt0"
     - name: discord
