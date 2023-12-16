@@ -2,6 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://grantdickins.co.uk/tags/alerts/</loc>
+    <lastmod>2023-12-16T19:08:55+00:00</lastmod>
+  </url><url>
+    <loc>http://grantdickins.co.uk/tags/certificate/</loc>
+    <lastmod>2023-12-16T19:08:55+00:00</lastmod>
+  </url><url>
+    <loc>http://grantdickins.co.uk/tags/connector/</loc>
+    <lastmod>2023-12-16T19:08:55+00:00</lastmod>
+  </url><url>
+    <loc>http://grantdickins.co.uk/tags/dev/</loc>
+    <lastmod>2023-12-16T19:08:55+00:00</lastmod>
+  </url><url>
+    <loc>http://grantdickins.co.uk/</loc>
+    <lastmod>2023-12-16T19:08:55+00:00</lastmod>
+  </url><url>
+    <loc>http://grantdickins.co.uk/tags/intune/</loc>
+    <lastmod>2023-12-16T19:08:55+00:00</lastmod>
+  </url><url>
+    <loc>http://grantdickins.co.uk/posts/</loc>
+    <lastmod>2023-12-16T19:08:55+00:00</lastmod>
+  </url><url>
+    <loc>http://grantdickins.co.uk/2023/12/16/Power-Automate-Intune-Cert-Connector-Health/</loc>
+    <lastmod>2023-12-16T19:08:55+00:00</lastmod>
+  </url><url>
+    <loc>http://grantdickins.co.uk/tags/powerapps/</loc>
+    <lastmod>2023-12-16T19:08:55+00:00</lastmod>
+  </url><url>
+    <loc>http://grantdickins.co.uk/tags/powerautomate/</loc>
+    <lastmod>2023-12-16T19:08:55+00:00</lastmod>
+  </url><url>
+    <loc>http://grantdickins.co.uk/tags/</loc>
+    <lastmod>2023-12-16T19:08:55+00:00</lastmod>
+  </url><url>
     <loc>http://grantdickins.co.uk/tags/autopilot/</loc>
     <lastmod>2023-03-30T08:59:20+01:00</lastmod>
   </url><url>
@@ -14,25 +47,13 @@
     <loc>http://grantdickins.co.uk/tags/csp/</loc>
     <lastmod>2023-03-30T08:59:20+01:00</lastmod>
   </url><url>
-    <loc>http://grantdickins.co.uk/</loc>
-    <lastmod>2023-03-30T08:59:20+01:00</lastmod>
-  </url><url>
-    <loc>http://grantdickins.co.uk/tags/intune/</loc>
-    <lastmod>2023-03-30T08:59:20+01:00</lastmod>
-  </url><url>
     <loc>http://grantdickins.co.uk/categories/intune/</loc>
     <lastmod>2023-03-30T08:59:20+01:00</lastmod>
   </url><url>
     <loc>http://grantdickins.co.uk/2023/03/30/mystery-of-required-reboots/</loc>
     <lastmod>2023-03-30T08:59:20+01:00</lastmod>
   </url><url>
-    <loc>http://grantdickins.co.uk/posts/</loc>
-    <lastmod>2023-03-30T08:59:20+01:00</lastmod>
-  </url><url>
     <loc>http://grantdickins.co.uk/tags/reboots/</loc>
-    <lastmod>2023-03-30T08:59:20+01:00</lastmod>
-  </url><url>
-    <loc>http://grantdickins.co.uk/tags/</loc>
     <lastmod>2023-03-30T08:59:20+01:00</lastmod>
   </url><url>
     <loc>http://grantdickins.co.uk/tags/audit/</loc>
