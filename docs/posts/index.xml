@@ -113,14 +113,5 @@ But why? What has group policy got to do with Updates Deployments since Config M
 Lets look at the facts
 The POL file date is 2 months old.</description>
     </item>
-    <item>
-      <title>Markdown Test</title>
-      <link>https://grantdickins.co.uk/1970/01/01/markdown-test/</link>
-      <pubDate>Thu, 01 Jan 1970 00:00:05 +0000</pubDate>
-      <guid>https://grantdickins.co.uk/1970/01/01/markdown-test/</guid>
-      <description>This is a demo post to show you how to write blog posts with markdown. See learn how to write in markdown.
-It&amp;#39;s very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com) It&amp;rsquo;s very easy to make some words bold and other words italic with Markdown. You can even link to Github!
-Here is a secondary heading Tertiary heading Here&amp;rsquo;s a table:</description>
-    </item>
   </channel>
 </rss>

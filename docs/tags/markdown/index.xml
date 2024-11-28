@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>markdown on Grant&#39;s Website</title>
-    <link>https://grantdickins.co.uk/tags/markdown/</link>
-    <description>Recent content in markdown on Grant&#39;s Website</description>
+    <title>Markdown on Grant&#39;s Website</title>
+    <link>http://localhost:1313/tags/markdown/</link>
+    <description>Recent content in Markdown on Grant&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Jan 1970 00:00:05 +0000</lastBuildDate>
-    <atom:link href="https://grantdickins.co.uk/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown Test</title>
-      <link>https://grantdickins.co.uk/1970/01/01/markdown-test/</link>
+      <link>http://localhost:1313/1970/01/01/markdown-test/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:05 +0000</pubDate>
-      <guid>https://grantdickins.co.uk/1970/01/01/markdown-test/</guid>
+      <guid>http://localhost:1313/1970/01/01/markdown-test/</guid>
       <description>This is a demo post to show you how to write blog posts with markdown. See learn how to write in markdown.
 It&amp;#39;s very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com) It&amp;rsquo;s very easy to make some words bold and other words italic with Markdown. You can even link to Github!
 Here is a secondary heading Tertiary heading Here&amp;rsquo;s a table:</description>

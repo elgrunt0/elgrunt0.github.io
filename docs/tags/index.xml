@@ -86,10 +86,17 @@
       <description></description>
     </item>
     <item>
-      <title>logging</title>
+      <title>Logging</title>
       <link>https://grantdickins.co.uk/tags/logging/</link>
       <pubDate>Mon, 27 Mar 2023 22:20:00 +0100</pubDate>
       <guid>https://grantdickins.co.uk/tags/logging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Applications/Packaging</title>
+      <link>https://grantdickins.co.uk/tags/applications/packaging/</link>
+      <pubDate>Sat, 15 Oct 2022 12:50:12 +0100</pubDate>
+      <guid>https://grantdickins.co.uk/tags/applications/packaging/</guid>
       <description></description>
     </item>
     <item>
@@ -107,7 +114,7 @@
       <description></description>
     </item>
     <item>
-      <title>github</title>
+      <title>Github</title>
       <link>https://grantdickins.co.uk/tags/github/</link>
       <pubDate>Sat, 03 Jul 2021 15:06:08 +0000</pubDate>
       <guid>https://grantdickins.co.uk/tags/github/</guid>
@@ -139,20 +146,6 @@
       <link>https://grantdickins.co.uk/tags/software-updates/</link>
       <pubDate>Fri, 17 Apr 2020 01:01:01 +0000</pubDate>
       <guid>https://grantdickins.co.uk/tags/software-updates/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>markdown</title>
-      <link>https://grantdickins.co.uk/tags/markdown/</link>
-      <pubDate>Thu, 01 Jan 1970 00:00:05 +0000</pubDate>
-      <guid>https://grantdickins.co.uk/tags/markdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Applications/Packaging</title>
-      <link>https://grantdickins.co.uk/tags/applications/packaging/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://grantdickins.co.uk/tags/applications/packaging/</guid>
       <description></description>
     </item>
   </channel>
